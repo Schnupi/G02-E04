@@ -3,7 +3,7 @@
     "personalAccessToken": "0480bb3a59adc104560ae3cc59d822ac85278f784cf142404186292f25d31f6a",
     "rules": [
       {
-        "path": "src/styles/colors.css",
+        "path": "src/styles/_light-theme-colors.scss",
         "filter": {
           "types": ["color"]
         },
