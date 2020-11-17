@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "sync": "specify sync",
-    "extract": "specify extract"
+    "extract-tokens": "specify extract -C ./.specifyrc/light-theme.json & specify extract -C ./.specifyrc/dark-theme.json;"
   },
   "eslintConfig": {
     "extends": [

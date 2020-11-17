@@ -1,15 +1,15 @@
 {
-    "repository": "@hetic/G02-E04-Light",
+    "repository": "@hetic/G02-E04-Dark",
     "personalAccessToken": "0480bb3a59adc104560ae3cc59d822ac85278f784cf142404186292f25d31f6a",
     "rules": [
       {
-        "path": "src/styles/_light-theme-colors.scss",
+        "path": "src/variables/colors/_dark-theme.scss",
         "filter": {
           "types": ["color"]
         },
         "parsers": [
           {
-            "name": "camelcasify",
+            "name": "kebabcasify",
             "options": {
               "keys": ["name"]
             }

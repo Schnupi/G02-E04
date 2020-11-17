@@ -1,0 +1,23 @@
+{
+    "repository": "@hetic/G02-E04-Light",
+    "personalAccessToken": "0480bb3a59adc104560ae3cc59d822ac85278f784cf142404186292f25d31f6a",
+    "rules": [
+      {
+        "path": "src/variables/colors/_light-theme.scss",
+        "filter": {
+          "types": ["color"]
+        },
+        "parsers": [
+          {
+            "name": "kebabcasify",
+            "options": {
+              "keys": ["name"]
+            }
+          },
+          {
+            "name": "to-css-custom-properties"
+          }
+        ]
+      }
+    ]
+  }
