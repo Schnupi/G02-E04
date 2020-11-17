@@ -2,6 +2,9 @@
   background-color: var(--background-button-primary-default);
   color: var(--text-on-colored-bg);
   padding: 8px 16px;
+  &::active {
+    background-color: var(--background-button-primary-active);
+  }
 }
 .alert {
   background-color: var(--background-button-primary-default);

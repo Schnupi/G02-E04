@@ -1,13 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "./style.scss";
 
 const Button = ({ styleButton, ...props }) => {
-  console.log(styleButton);
   return (
     <div>
-      <button {...props} className={styleButton}>
+      <div {...props} className={styleButton}>
         Hello
-      </button>
+      </div>
     </div>
   );
 };
