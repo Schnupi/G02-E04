@@ -1,0 +1,78 @@
+@font-face{
+    font-family : "Larsseit";
+    src : url(../../font/Larsseit.otf) format(otf),
+}
+
+@mixin title {
+    font-family: "Larsseit";
+    font-weight: 700;
+    font-size:64px;
+}
+
+@mixin subtitle{
+    font-family: "Larsseit";
+    font-weight: 500;
+    font-size:51px;
+}
+
+@mixin title-2 {
+    font-family: "Larsseit";
+    font-weight: 700;
+    font-size:41px;
+}
+
+@mixin subhead{
+    font-family: "Larsseit";
+    font-weight: 500;
+    font-size:32px;
+} 
+
+
+@mixin button{
+    font-family: "Larsseit";
+    font-weight: 500;
+    font-size:18px;
+}
+
+@mixin link{
+    font-family: "Larsseit";
+    font-weight: 400;
+    font-size:16px;
+}
+
+@mixin body-high-emphasis{
+    font-family: "Larsseit";
+    font-weight: 700;
+    font-size:16px;
+}
+
+@mixin body-emphasis{
+    font-family: "Larsseit";
+    font-weight: 500;
+    font-size:16px;
+}
+
+@mixin body-1{
+    font-family: "Larsseit";
+    font-weight: 400;
+    font-size:16px;
+}
+
+@mixin body-2{
+    font-family: "Larsseit";
+    font-weight: 400;
+    font-size:14px;
+}
+
+@mixin caption-emphasis{
+    font-family: "Larsseit";
+    font-weight: 700;
+    font-size:12px;
+    text-transform: uppercase;
+}
+
+@mixin caption{
+    font-family: "Larsseit";
+    font-weight: 400;   
+    font-size:12px;
+}
