@@ -1,5 +1,6 @@
 @import "../../variables/colors/dark-theme";
+@import "../../variables/colors/light-theme";
 
 .App {
-  background-color: var(--background-border-active);
+  background-color: var(--background-border-high-emphasis);
 }

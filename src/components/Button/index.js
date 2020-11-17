@@ -1,10 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Button = () => {
+const Button = ({ styleButton, ...props }) => {
+  console.log(styleButton);
   return (
     <div>
-      <button style={{}}>Hello</button>
+      <button {...props} className={styleButton}>
+        Hello
+      </button>
     </div>
   );
 };
