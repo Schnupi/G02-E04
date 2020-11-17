@@ -1,0 +1,52 @@
+@import '../../variables/text/text-styles';
+
+.title{
+    @include title;
+}
+
+.subtitle{
+    @include subtitle;
+}
+
+.title-2{
+    @include title-2;
+}
+
+.subhead{
+    @include subhead;
+}
+
+.button{
+    @include button;
+}
+
+.link{
+    @include link;
+}
+
+.body-high-emphasis{
+    @include body-high-emphasis;
+}
+
+.body-emphasis{
+    @include body-emphasis;
+}
+
+.body-1{
+    @include body-1;
+}
+
+.body-2{
+    @include body-2;
+}
+
+.caption-emphasis{
+    @include caption-emphasis;
+}
+
+.caption{
+    @include caption;
+}
+
+
+
